@@ -17,11 +17,13 @@ public class ApplicationRunner implements CommandLineRunner {
     @Override
     public void run(String... args) {
         if (args.length <= 0) {
+            System.out.println("\n\n\n\n"); // System.out is just to have a better space between the logs
             log.error("Please provide the full path for the logfile as argument");
+            System.out.println("\n\n\n\n");
         } else {
             String fullPath = args[0];
             try {
-                System.out.println("\n\n\n\n"); // System.out is just to have a better space between the logs
+                System.out.println("\n\n\n\n");
                 log.info("******************** Initializing parser for the file [{}] ********************", fullPath);
                 System.out.println("\n\n\n\n");
 
