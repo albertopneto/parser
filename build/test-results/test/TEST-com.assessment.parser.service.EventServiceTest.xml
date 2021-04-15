@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.assessment.parser.service.EventServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-15T16:19:20" hostname="ALBERTORIBEIRO" time="0.131">
+  <properties/>
+  <testcase name="saveEventLogSuccessfully_whenAllFieldsAreProvided()" classname="com.assessment.parser.service.EventServiceTest" time="0.115"/>
+  <testcase name="saveEventLogFails_whenEventIdIsDuplicated()" classname="com.assessment.parser.service.EventServiceTest" time="0.011"/>
+  <testcase name="saveEventLogSuccessfully_whenRequiredFieldsAreSetOnly()" classname="com.assessment.parser.service.EventServiceTest" time="0.003"/>
+  <system-out><![CDATA[13:19:20.144 [Test worker] ERROR com.assessment.parser.service.impl.EventServiceImpl - Error storing EventId [scsmbstgrb], reason [Event already exists.]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
