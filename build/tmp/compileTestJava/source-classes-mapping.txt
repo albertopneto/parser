@@ -1,8 +1,0 @@
-com/assessment/parser/service/EventServiceTest.java
- com.assessment.parser.service.EventServiceTest
-com/assessment/parser/service/FileProcessServiceTest.java
- com.assessment.parser.service.FileProcessServiceTest
-com/assessment/parser/ApplicationRunnerTest.java
- com.assessment.parser.ApplicationRunnerTest
-com/assessment/parser/repository/EventRepositoryTest.java
- com.assessment.parser.repository.EventRepositoryTest
